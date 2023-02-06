@@ -1,0 +1,18 @@
+:root{
+  --cor1: #048ABF;
+  --cor2: #4EB1D9;
+  --cor3: #2C3A40;
+  --cor4: #6FBFBF;
+  --cor5: #F2E0DF;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+}

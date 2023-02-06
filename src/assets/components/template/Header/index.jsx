@@ -1,8 +1,11 @@
 import React from 'react';
+import './style.css'
 
-function Header(){
+function Header() {
   return (
-    <header>Fofinhas Hair </header>
+    <header>
+      <img src="../public/img/logo-semFundo.png" alt="Logo" />
+    </header>
   )
 }
 
