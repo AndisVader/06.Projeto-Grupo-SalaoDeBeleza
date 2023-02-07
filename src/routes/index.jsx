@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import IndexPage from "./assets/App.jsx"
-import HomePage from "./assets/pages/HomePages/";
-import AboutUsPage from "./assets/pages/AboutUsPages/";
-import ServicePage from "./assets/pages/ServicePages/";
-import ContactPage from "./assets/pages/ContactPages/";
+import IndexPage from "./App.jsx"
+import HomePage from "./assets/pages/HomePages";
+import AboutUsPage from "./assets/pages/AboutUsPages";
+import ServicePage from "./assets/pages/ServicePages";
+import ContactPage from "./assets/pages/ContactPages";
 
 const Rotas = () => (
   <BrowserRouter>
