@@ -1,0 +1,63 @@
+:root{
+  --cor1: #048ABF;
+  --cor2: #4EB1D9;
+  --cor3: #2C3A40;
+  --cor4: #6FBFBF;
+  --cor5: #F2E0DF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container{
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas: 
+    "cabeçalho navegação"
+    "conteúdo conteúdo"
+    "rodapé rodapé";
+}
+
+Header{
+  grid-area: cabeçalho;
+}
+
+Navbar{
+  grid-area: navegação;
+}
+
+Main {
+  grid-area: conteúdo;
+}
+
+Footer{
+  grid-area: rodapé;
+}
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 1024px){
+  
+}
+
+@media(max-width: 768px){
+  body{
+    grid-template-columns: 1fr; 
+    grid-template-rows: 80px 1fr 100px;
+    grid-template-areas: 0.4fr 0.4fr 2.2fr 1pf
+      "cabeçalho"
+      "navegação"
+      "conteúdo"
+      "rodapé";
+  }
+}
+
+@media(max-width: 480px){
+  
+}

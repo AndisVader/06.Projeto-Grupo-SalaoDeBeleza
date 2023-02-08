@@ -1,8 +1,8 @@
 import React from "react";
-import './Navbar.css'
+import './Nav.css'
 
-function Navbar() {
-  return (
+function Nav(){
+  return(
     <nav className='navBar'>
       <a href="./assets/pages/HomePages/">Início</a>
       <a href="./assets/pages/AboutUsPages/">Sobre Nós</a>
@@ -13,4 +13,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Nav
