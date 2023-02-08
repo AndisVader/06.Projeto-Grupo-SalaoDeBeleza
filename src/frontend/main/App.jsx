@@ -7,13 +7,13 @@ import Main from '../components/template/Main/Main'
 import Footer from '../components/template/Footer/Footer'
 
 function App() {
-  return(
-  <div className="grid-container">
-    <Header className=""></Header>
-    <Navbar className=""></Navbar>
-    <Main className=""></Main>
-    <Footer className=""></Footer>
-  </div>
+  return (
+    <div className="grid-container">
+      <Header />
+      <Navbar />
+      <Main />
+      <Footer />
+    </div>
   )
 }
 
