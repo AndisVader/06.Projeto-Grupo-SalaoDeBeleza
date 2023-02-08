@@ -1,20 +1,19 @@
+import 'font-awesome/css/font-awesome.min.css'
 import React from 'react'
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Header from "../components/template/Header/Header"
+import Logo from "../components/template/Logo/Logo"
 import Navbar from '../components/template/Nav/Nav'
-import Main from '../components/template/Main/Main'
+import Rotas from '../routes/Routes'
 import Footer from '../components/template/Footer/Footer'
 
-function App() {
-  return (
-    <div className="grid-container">
-      <Header />
-      <Navbar />
-      <Main />
-      <Footer />
-    </div>
-  )
-}
-
-export default App
+export default props =>
+  <div className="grid-container">
+    <BrowserRouter>
+        <Logo />
+        <Navbar />
+        <Rotas />
+        <Footer />  
+    </BrowserRouter>
+  </div>

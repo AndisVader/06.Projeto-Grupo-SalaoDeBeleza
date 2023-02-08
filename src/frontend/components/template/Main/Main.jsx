@@ -1,10 +1,6 @@
 import React from "react";
 import './Main.css'
 
-function Main(){
-  return(
-    <main></main>
-  )
-}
-
-export default Main
+export default props => 
+<main className="corpo"></main>
+  

@@ -1,16 +1,12 @@
 import React from "react";
 import './Nav.css'
+import { Link } from "react-router-dom";
 
-function Nav(){
-  return(
-    <nav className='navBar'>
-      <a href="./assets/pages/HomePages/">Início</a>
-      <a href="./assets/pages/AboutUsPages/">Sobre Nós</a>
-      <a href="./assets/pages/ServicePages/">Nossos Serviços</a>
-      <a href="">Agende-se</a>
-      <a href="./assets/pages/ContactPages/">Contatos</a>
-    </nav>
-  )
-}
 
-export default Nav
+export default props =>
+  <nav className='navbar'>
+    <Link to="/">Início</Link>
+    <Link to="/SobreNos">Sobre Nós</Link>
+    <Link to="/Servicos">Nossos Serviços</Link>
+    <Link to="/Contatos">Contatos</Link>
+  </nav>
