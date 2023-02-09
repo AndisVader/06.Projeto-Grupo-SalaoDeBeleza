@@ -8,7 +8,6 @@ const initialState = {
   list: []
 }
 
-
 export default class Service extends Component {
   
   state = {...initialState}
@@ -24,7 +23,7 @@ export default class Service extends Component {
   render(){
     return(
       <Main>
-        Olá Mundo
+       
       </Main>
     )
   }

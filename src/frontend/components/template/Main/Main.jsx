@@ -1,6 +1,12 @@
 import React from "react";
 import './Main.css'
 
-export default props => 
-<main className="corpo"></main>
+const Main = ({children}) =>{
+    return(
+        <main className="corpo">
+            {children}
+        </main>
+    )
+}
   
+export default Main
