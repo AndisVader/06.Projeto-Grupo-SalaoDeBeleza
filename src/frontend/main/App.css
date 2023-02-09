@@ -5,8 +5,9 @@
   --cor4: #6FBFBF;
   --cor5: #F2E0DF;
 
-  --logo-height: 100px;
-  --nav-top-height: 100px;
+  /* --logo-height: 100px;
+  --nav-top-height: 100px; */
+  --header-height: 100px;
   --main-height: 100px;
   --footer-height: 40px;
 
@@ -23,24 +24,21 @@
 
 .grid-container{
   display: grid;
-  grid-template-columns: var(--logo-height) 1fr;
+  grid-template-columns: 0.5fr 1fr;
   grid-template-rows: 
-    var(--nav-top-height)
+    var(--header-height)
     1fr
     var(--footer-height);
   grid-template-areas: 
-    "logo menu"
+    "header header"
     "content content"
     "footer footer";
   min-height: 100vh;
 }
 
-div.logo{
-  grid-area: logo;
-}
 
-nav.navbar{
-  grid-area: menu;
+header.header{
+  grid-area: header;
 }
 
 main.corpo {
@@ -54,14 +52,13 @@ footer.footer{
 
 @media(max-width: 768px){
   .grid-container{
-    grid-template-columns: var(--logo-height) 1fr; 
+    grid-template-columns: 0.3fr 1fr; 
     grid-template-rows:
-      var(--logo-height) 
-      var(--nav-top-height)
+      var(--header-height) 
       1fr
       var(--footer-height);
     grid-template-areas: 
-      "logo menu"
+      "header header"
       "content content"
       "footer footer";
   }
@@ -71,13 +68,11 @@ footer.footer{
   .grid-container{
     grid-template-columns: 1fr; 
     grid-template-rows:
-      var(--logo-height) 
-      var(--nav-top-height)
+      var(--header-height)
       1fr
       var(--footer-height);
     grid-template-areas:
-      "logo"
-      "menu"
+      "header "
       "content"
       "footer";
   }

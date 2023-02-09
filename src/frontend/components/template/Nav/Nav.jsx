@@ -1,12 +1,18 @@
 import React from "react";
 import './Nav.css'
 import { Link } from "react-router-dom";
+import BtnMobile from "./BtnMobile"
 
 
 export default props =>
-  <nav className='navbar'>
-    <Link to="/">Início</Link>
-    <Link to="/SobreNos">Sobre Nós</Link>
-    <Link to="/Servicos">Nossos Serviços</Link>
-    <Link to="/Contatos">Contatos</Link>
-  </nav>
+  <div>
+    <BtnMobile/>
+    <nav className='navbar'>
+      <ul>
+        <Link to="/" className="active">Início</Link>
+        <Link to="/SobreNos">Sobre Nós</Link>
+        <Link to="/Servicos">Nossos Serviços</Link>
+        <Link to="/Contatos">Contatos</Link>
+      </ul>
+    </nav>
+  </div>

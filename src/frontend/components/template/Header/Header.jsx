@@ -1,6 +1,10 @@
 import React from 'react';
 import './Header.css'
+import Logo from '../Logo/Logo'
+import Nav from '../Nav/Nav'
 
 export default props =>
-  <header>
+  <header className='header'>
+    <Logo/>
+    <Nav/>
   </header>

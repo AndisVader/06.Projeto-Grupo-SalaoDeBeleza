@@ -14,20 +14,33 @@
 }
 
 .navbar a{
-  display: block;
   text-decoration: none;
   padding: 5px;
   font-weight: 300;
+  font-size: 20px;
+  border-radius: 50px;
+  transition: 0.2s;
 }
 
 .navbar a:hover{
   background: linear-gradient(135deg, #048ABF 0%, #4EB1D9 100%);
 }
 
-@media(max-width: 768px){
-  
+@media(max-width: 1024px){
+  header{
+    padding: 0 30px;
+  }
 }
 
+/* @media(max-width: 768px){
+
+} */
+
 @media(max-width: 480px){
-  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
 }
