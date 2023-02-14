@@ -11,7 +11,7 @@ export default props =>
       <ul>
         <Link to="/" className="active">Início</Link>
         <Link to="/SobreNos">Sobre Nós</Link>
-        <Link to="/Servicos">Nossos Serviços</Link>
+        <Link to="/Servicos">Serviços</Link>
         <Link to="/Contatos">Contatos</Link>
       </ul>
     </nav>

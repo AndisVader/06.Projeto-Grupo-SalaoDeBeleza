@@ -1,13 +1,16 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;1,300&family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+
 :root{
   --cor1: #048ABF;
   --cor2: #4EB1D9;
   --cor3: #2C3A40;
   --cor4: #6FBFBF;
   --cor5: #F2E0DF;
+  --titulo: Ubuntu;
+  --texto: Barlow;
 
   /* --logo-height: 100px;
   --nav-top-height: 100px; */
-  --header-height: 100px;
   --main-height: 100px;
   --footer-height: 40px;
 
@@ -17,9 +20,10 @@
 
 *{
   box-sizing: border-box;
-  font-family: '';
   margin: 0;
   padding: 0;
+  text-decoration: none;
+
 }
 
 .grid-container{
