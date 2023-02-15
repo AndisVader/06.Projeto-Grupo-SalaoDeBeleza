@@ -5,49 +5,49 @@
       "nome": "Botox",
       "valor": 290,
       "tempo": "30min",
-      "img": "https://pin.it/3BeUS9k"
+      "img": ""
     },
     {
       "id": 2,
       "nome": "Coloração",
       "valor": 189,
       "tempo": "30min",
-      "img": "https://pin.it/3KthvJL"
+      "img": ""
     },
     {
       "id": 3,
       "nome": "Escova Curta",
       "valor": 68,
       "tempo": "30min",
-      "img": "https://pin.it/1BlxoWU"
+      "img": ""
     },
     {
       "id": 4,
       "nome": "Escova Média",
       "valor": 68,
       "tempo": "30min",
-      "img": "https://pin.it/3bBBsij"
+      "img": ""
     },
     {
       "id": 5,
       "nome": "Escova Longa",
       "valor": 88,
       "tempo": "45min",
-      "img": "https://pin.it/6jeD7o8"
+      "img": ""
     },
     {
       "id": 6,
       "nome": "Manutenção Megahair",
       "valor": 800,
       "tempo": "4h",
-      "img": "https://pin.it/2N6ULc5"
+      "img": ""
     },
     {
       "id": 7,
       "nome": "Mechas",
       "valor": "sob consulta",
       "tempo": "1h",
-      "img": "https://pin.it/2sA2cWQ"
+      "img": ""
     }
   ],
   "Depilacao":[
@@ -82,7 +82,7 @@
       "tempo": "30min"
     }
   ],
-  "ManicureEPedicure":[
+  "ManicurePedicure":[
     {
       "id": 1,
       "nome": "Acrygel Colocação",
