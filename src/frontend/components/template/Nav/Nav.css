@@ -21,7 +21,7 @@
 
 .navbar a{
   text-decoration: none;
-  padding: 5px;
+  padding: 10px;
   font-weight: 300;
   font-size: 20px;
   font-family: var(--titulo);
@@ -41,10 +41,6 @@
     padding: 0 30px;
   }
 }
-
-/* @media(max-width: 768px){
-
-} */
 
 @media(max-width: 480px){
   .navbar{
