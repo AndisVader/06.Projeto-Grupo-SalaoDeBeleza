@@ -26,8 +26,8 @@ export default function CabeloAPI() {
           <h2 className="nome">{post.nome}</h2>
           <p className="valor">{post.valor}</p>
           <span className="tempo">{post.tempo}</span>
-          <div>
-            <img src={post.img} />
+          <div className="desc">
+            <p>{post.desc}</p>
           </div>
         </div>
       </section>

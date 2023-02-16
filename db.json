@@ -5,60 +5,59 @@
       "nome": "Botox",
       "valor": 290,
       "tempo": "30min",
-      "img": ""
+      "desc": "O botox capilar é um tipo de tratamento intensivo que proporciona hidratação, brilho e preenchimento aos cabelos, os deixando mais bonitos, sem frizz e pontas duplas."
     },
     {
       "id": 2,
       "nome": "Coloração",
       "valor": 189,
       "tempo": "30min",
-      "img": ""
+      "desc": "A coloração é um procedimento químico que consiste em depositar pigmento de cor na fibra capilar, alterando, assim, a cor. Você pode colorir os cabelos utilizando dois tipos de produtos: tonalizante ou tinta, também conhecida como coloração permanente."
     },
     {
       "id": 3,
       "nome": "Escova Curta",
       "valor": 68,
       "tempo": "30min",
-      "img": ""
+      "desc": "A chamada escova progressiva tradicional é aquela que tem alto poder alisante e utiliza a queratina e o óxido acetamide como forma de alisar progressivamente o cabelo."
     },
     {
       "id": 4,
       "nome": "Escova Média",
       "valor": 68,
       "tempo": "30min",
-      "img": ""
+      "desc": "A chamada escova progressiva tradicional é aquela que tem alto poder alisante e utiliza a queratina e o óxido acetamide como forma de alisar progressivamente o cabelo."
     },
     {
       "id": 5,
       "nome": "Escova Longa",
       "valor": 88,
       "tempo": "45min",
-      "img": ""
+      "desc": "A chamada escova progressiva tradicional é aquela que tem alto poder alisante e utiliza a queratina e o óxido acetamide como forma de alisar progressivamente o cabelo."
     },
     {
       "id": 6,
       "nome": "Manutenção Megahair",
       "valor": 800,
       "tempo": "4h",
-      "img": ""
+      "desc": "Mega hair é nada mais nada menos que o nome geral dado às técnicas de aplicação de apliques. São várias técnicas, sendo algumas delas:  ponto americano, nó italiano, cola de queratina e entre outras."
     },
     {
       "id": 7,
       "nome": "Mechas",
       "valor": "sob consulta",
       "tempo": "1h",
-      "img": ""
+      "desc": " é a técnica mais comum e mais antiga. As mechas são pintadas em tons mais claros do que o cabelo original, podendo ser usados cores e até tons diferentes. Pode ser feito sobre uma base de outra cor ou apenas num tom mais escuro. "
     },
     {
       "id": 8,
       "nome": "Selagem - Tyrrel",
       "valor": 350,
       "tempo": "1h",
-      "img": ""
+      "desc": "Escova Progressiva Oxireduct da Tyrrel é um poderoso tratamento ôrganico enriquecido com complexo de aminoácidos, vitaminas, proteínas do arroz e queratina quarternária. Atua na fibra capilar amolecendo-as e facilitando assim o alinhamento perfeito dos fios."
     }
-
   ],
-  "Depilacao":[
+  "Depilacao": [
     {
       "id": 1,
       "nome": "Axilas",
@@ -96,7 +95,7 @@
       "tempo": "30min"
     }
   ],
-  "Unhas":[
+  "Unhas": [
     {
       "id": 1,
       "nome": "Acrygel Colocação",
