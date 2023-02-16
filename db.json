@@ -48,7 +48,15 @@
       "valor": "sob consulta",
       "tempo": "1h",
       "img": ""
+    },
+    {
+      "id": 8,
+      "nome": "Selagem - Tyrrel",
+      "valor": 350,
+      "tempo": "1h",
+      "img": ""
     }
+
   ],
   "Depilacao":[
     {
@@ -77,12 +85,18 @@
     },
     {
       "id": 5,
+      "nome": "Virilha Cavada",
+      "valor": 42,
+      "tempo": "30min"
+    },
+    {
+      "id": 6,
       "nome": "Virilha Completa",
       "valor": 50,
       "tempo": "30min"
     }
   ],
-  "ManicurePedicure":[
+  "Unhas":[
     {
       "id": 1,
       "nome": "Acrygel Colocação",
@@ -112,6 +126,12 @@
       "nome": "Pé e Mão",
       "valor": 50,
       "tempo": "1h"
+    },
+    {
+      "id": 6,
+      "nome": "Troca de esmalte",
+      "valor": 20,
+      "tempo": "30min"
     }
   ]
 }

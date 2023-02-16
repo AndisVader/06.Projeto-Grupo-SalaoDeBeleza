@@ -1,5 +1,6 @@
 import axios from "axios";
 import React from "react";
+import './CabeloAPI.css'
 
 const baseURL = "http://localhost:3001/Cabelo";
 
@@ -20,20 +21,22 @@ export default function CabeloAPI() {
 
   const arr = post.map((post, index) => {
     return (
-      <div>
-        <h2>{post.nome}</h2>
-        <p>{post.valor}</p>
-        <span>{post.tempo}</span>
-        <div>
-          <img src={post.img} />
+      <section className="cards">
+        <div className="card">
+          <h2 className="nome">{post.nome}</h2>
+          <p className="valor">{post.valor}</p>
+          <span className="tempo">{post.tempo}</span>
+          <div>
+            <img src={post.img} />
+          </div>
         </div>
-      </div>
+      </section>
     );
   })
 
   return (
-    <div>
+    <section className="cards">
       {arr}
-    </div>
+    </section>
   );
 }
