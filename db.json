@@ -5,6 +5,7 @@
       "nome": "Botox",
       "valor": 290,
       "tempo": "30min",
+      "img": "https://www.pexels.com/pt-br/foto/homem-secando-cabelo-de-mulher-696285/",
       "desc": "O botox capilar é um tipo de tratamento intensivo que proporciona hidratação, brilho e preenchimento aos cabelos, os deixando mais bonitos, sem frizz e pontas duplas."
     },
     {
@@ -41,20 +42,6 @@
       "valor": 800,
       "tempo": "4h",
       "desc": "Mega hair é nada mais nada menos que o nome geral dado às técnicas de aplicação de apliques. São várias técnicas, sendo algumas delas:  ponto americano, nó italiano, cola de queratina e entre outras."
-    },
-    {
-      "id": 7,
-      "nome": "Mechas",
-      "valor": "sob consulta",
-      "tempo": "1h",
-      "desc": " é a técnica mais comum e mais antiga. As mechas são pintadas em tons mais claros do que o cabelo original, podendo ser usados cores e até tons diferentes. Pode ser feito sobre uma base de outra cor ou apenas num tom mais escuro. "
-    },
-    {
-      "id": 8,
-      "nome": "Selagem - Tyrrel",
-      "valor": 350,
-      "tempo": "1h",
-      "desc": "Escova Progressiva Oxireduct da Tyrrel é um poderoso tratamento ôrganico enriquecido com complexo de aminoácidos, vitaminas, proteínas do arroz e queratina quarternária. Atua na fibra capilar amolecendo-as e facilitando assim o alinhamento perfeito dos fios."
     }
   ],
   "Depilacao": [

@@ -11,7 +11,7 @@
 
   --header-height: 100px;
   --main-height: 100px;
-  --footer-height: 250px;
+  --footer-height: 300px;
 
   --shadow1: 0 2px 23px 0 rgba(0,0,0,0.1);
   --shadow2: 0 2px 49px 0 rgba(0,0,0,0.06);
@@ -57,7 +57,7 @@ footer.footer{
   .grid-container{
     grid-template-columns: 0.3fr 1fr; 
     grid-template-rows:
-      var(--header-height) 
+      
       1fr
       var(--footer-height);
     grid-template-areas: 

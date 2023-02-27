@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react";
-import './CabeloAPI.css'
+import './CardStyle.css'
 
 const baseURL = "http://localhost:3001/Cabelo";
 
@@ -23,20 +23,23 @@ export default function CabeloAPI() {
     return (
       <section className="cards">
         <div className="card">
-          <h2 className="nome">{post.nome}</h2>
-          <p className="valor">{post.valor}</p>
-          <span className="tempo">{post.tempo}</span>
-          <div className="desc">
-            <p>{post.desc}</p>
+          <div className="imgs">
+            <img src={post.img} alt="Imagem" />
           </div>
+          <h2 className="nome">{post.nome}</h2>
+          <address className="valor">{post.valor}</address>
+          <span className="tempo">{post.tempo}</span>
         </div>
       </section>
     );
   })
 
   return (
-    <section className="cards">
-      {arr}
+    <section className="carrousel">
+      <h1>Cortes de Cabelos</h1>
+      <div className="cards">
+        {arr}
+      </div>
     </section>
   );
 }

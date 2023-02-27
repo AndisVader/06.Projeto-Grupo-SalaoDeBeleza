@@ -1,5 +1,6 @@
 import axios from "axios";
 import React from "react";
+import './CardStyle.css'
 
 const baseURL = "http://localhost:3001/Depilacao";
 
@@ -20,17 +21,28 @@ export default function DepilacaoAPI() {
 
   const arr = post.map((post, index) => {
     return (
-      <tr>
-        <td>{post.nome}</td>
-        <td>{post.valor}</td>
-        <td>{post.tempo}</td>
-      </tr>
+      <section className="cards">
+        <div className="card">
+          <div className="imgs">
+            <img src={post.img} alt="Imagem" />
+          </div>
+          <h2 className="nome">{post.nome}</h2>
+          <address className="valor">{post.valor}</address>
+          <span className="tempo">{post.tempo}</span>
+          <div className="desc">
+            <p>{post.desc}</p>
+          </div>
+        </div>
+      </section>
     );
   })
 
   return (
-    <div>
-      {arr}
-    </div>
+    <section className="carrousel">
+      <h1>Depilação</h1>
+      <div className="cards">
+        {arr}
+      </div>
+    </section>
   );
 }

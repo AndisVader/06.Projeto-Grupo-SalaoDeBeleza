@@ -2,14 +2,14 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(155px, 300px));
-  grid-auto-rows: 370px;
+  grid-auto-rows: 300px;
   grid-auto-flow: dense;
   justify-content: center;
   padding: 10px 10px 10px;
 }
 
 .card {
-  background: rgba(255, 213, 70, 0.3);
+  background: rgba(233, 232, 230, 0.507);
   border: 1px solid grey;
   text-align: center;
   border-radius: 4px;
