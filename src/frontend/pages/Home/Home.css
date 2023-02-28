@@ -23,9 +23,12 @@
 
 
 }
-
+.animacao{
+    width: 250px;
+    height: 250px;
+}
 .BotaoDeServico {
-    padding: 150PX;
+    padding: 150px;
     background-color: blue;
 }
 
