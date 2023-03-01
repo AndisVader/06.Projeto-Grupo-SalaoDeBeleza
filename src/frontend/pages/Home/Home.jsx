@@ -9,6 +9,8 @@ import menu3 from '../../assets/img/menu3.jpg'
 import MapPage from '../Map/MapPage'
 import Girl from '../Lottie/girl.json'
 import Lottie from 'lottie-react'
+import Location from '../Lottie/location3.json'
+import Make from '../Lottie/make.json'
 
 export default props =>
   <Main>
@@ -32,7 +34,9 @@ export default props =>
       {/* serao 3 fotos que será cabelo, spa, tratamentos. preciso lembrar do background maneiro*/}
     </section>
     <section className='avaliacoes'>
-      {/*avaliacoes do google*/}
+      Venha nos visitar!
+      <Lottie className='localizacao' animationData={Location} />
+      <Lottie className='make' animationData={Make} />
     </section>
     <section className='local'>
       <MapPage />

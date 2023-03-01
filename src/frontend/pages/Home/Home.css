@@ -23,13 +23,21 @@
 
 
 }
-.animacao{
+
+.localizacao, .make, .animacao{
     width: 250px;
     height: 250px;
+
 }
 .BotaoDeServico {
     padding: 150px;
     background-color: blue;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.BotaoDeServico h1{
+    color: white;
 }
 
 .pictures {
@@ -40,7 +48,10 @@
 
 .avaliacoes {
     padding: 150PX;
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(253, 250, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .local {
