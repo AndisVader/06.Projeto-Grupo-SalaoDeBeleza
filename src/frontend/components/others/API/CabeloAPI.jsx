@@ -23,8 +23,8 @@ export default function CabeloAPI() {
     return (
       <section className="cards">
         <div className="card">
-          <div className="imgs">
-            <img src={post.img} alt="Imagem" />
+          <div className="box-img">
+            <img src={post.url} alt="Imagem" />
           </div>
           <h2 className="nome">{post.nome}</h2>
           <address className="valor">{post.valor}</address>
