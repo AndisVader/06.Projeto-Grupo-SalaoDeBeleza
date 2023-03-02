@@ -6,7 +6,6 @@ const Banner = () => {
     <div className="banner">
       <p>Bem Vindo à Fofinha's Hair</p>
       <h1>Cortes Femininos, depilação, manicure e pedicure</h1>
-      <button>Agende seu horário</button>
     </div>
   );
 };

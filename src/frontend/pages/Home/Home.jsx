@@ -24,7 +24,7 @@ export default props =>
     </section>
     <section className='BotaoDeServico'>
       <h1 className='text3'> Venha conhecer nossos serviços</h1>
-  
+      <button>Agende seu horário!!</button>
       <Lottie className='animacao' animationData={Girl} />
     </section>
     <section className='pictures'>
