@@ -28,9 +28,13 @@ export default props =>
       <Lottie className='animacao' animationData={Girl} />
     </section>
     <section className='pictures'>
+      <div className='uma'>
       <img src={menu} />
+      </div>
+      <div className='outrasduas'>
       <img src={menu2} />
       <img src={menu3} />
+      </div>
       {/* serao 3 fotos que será cabelo, spa, tratamentos. preciso lembrar do background maneiro*/}
     </section>
     <section className='avaliacoes'>

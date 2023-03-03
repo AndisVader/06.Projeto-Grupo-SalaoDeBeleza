@@ -41,9 +41,11 @@
 }
 
 .pictures {
-    padding: 150px;
     background-repeat: no-repeat;
     background-position: 100%;
+    display: flex;
+    align-items: center;
+
 }
 
 .avaliacoes {
@@ -61,5 +63,12 @@
 .pictures img {
     height: 500px;
     width: 500px;
-    margin: 7rem;
+}
+.pictures .uma img{
+    height: 1000px;
+    width: 1000px;
+}
+.pictures .uma{
+    margin: 70px;
+    align-items: center;
 }
